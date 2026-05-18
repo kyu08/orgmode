@@ -1470,6 +1470,13 @@ Reload all org files and refresh current agenda view.
 - Mapped to: =t=
 Change =TODO= state of an item in both agenda and original Org file.
 
+**** org_agenda_todo_prev
+:PROPERTIES:
+:CUSTOM_ID: org_agenda_todo_prev
+:END:
+- Mapped to: =T=
+Change =TODO= state of an item backwards in both agenda and original Org file.
+
 **** org_agenda_clock_in
 :PROPERTIES:
 :CUSTOM_ID: org_agenda_clock_in
