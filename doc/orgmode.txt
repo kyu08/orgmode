@@ -1521,6 +1521,13 @@ org_agenda_todo                                      *orgmode-org_agenda_todo*
 Change `TODO` state of an item in both agenda and original Org file.
 
 
+org_agenda_todo_prev                            *orgmode-org_agenda_todo_prev*
+
+- Mapped to: `T`
+
+Change `TODO` state of an item backwards in both agenda and original Org file.
+
+
 org_agenda_clock_in                              *orgmode-org_agenda_clock_in*
 
 - Mapped to: `I`

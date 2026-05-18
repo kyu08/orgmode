@@ -55,6 +55,10 @@ return {
       'agenda.change_todo_state',
       { opts = { desc = 'org cycle todo state', help_desc = 'Change TODO state of an item' } }
     ),
+    org_agenda_todo_prev = m.action(
+      'agenda.change_todo_state_prev',
+      { opts = { desc = 'org cycle todo state backwards', help_desc = 'Change TODO state of an item backwards' } }
+    ),
     org_agenda_clock_in = m.action(
       'agenda.clock_in',
       { opts = { desc = 'org clock in', help_desc = 'Clock in item under cursor' } }

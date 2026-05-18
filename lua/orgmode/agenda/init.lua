@@ -364,6 +364,13 @@ function Agenda:change_todo_state()
   })
 end
 
+function Agenda:change_todo_state_prev()
+  return self:_remote_edit({
+    action = 'org_mappings.todo_prev_state',
+    update_in_place = true,
+  })
+end
+
 function Agenda:clock_in()
   return self:_remote_edit({
     action = 'clock.org_clock_in',

@@ -72,6 +72,7 @@
 ---@field org_agenda_goto_date? OrgMappingValue Default: 'J'
 ---@field org_agenda_redo? OrgMappingValue Default: 'r'
 ---@field org_agenda_todo? OrgMappingValue Default: 't'
+---@field org_agenda_todo_prev? OrgMappingValue Default: 'T'
 ---@field org_agenda_clock_goto? OrgMappingValue Default: '<prefix>xj'
 ---@field org_agenda_set_effort? OrgMappingValue Default: '<prefix>xe'
 ---@field org_agenda_clock_in? OrgMappingValue Default: 'I'
